@@ -4,7 +4,8 @@ version = "0.1.0"
 dependencies = [
     "jupyterlab",
     "notebook",
-    "numpy",
+    "numpy<2.3",
+    "shap",
     "pandas",
     "matplotlib",
     "seaborn",

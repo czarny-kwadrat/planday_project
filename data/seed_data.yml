@@ -1,0 +1,10 @@
+version: 2
+
+seeds:
+  - name: activity_data
+    description: A log of activities performed by trial organisations
+   
+    columns:
+      - name: organization_id
+        data_tests:
+          - not_null

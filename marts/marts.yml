@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: trial_goals
+    columns:
+      - name: organization_id
+        tests:
+          - unique
+          - not_null
+
+  - name: trial_activations
+    columns:
+      - name: organization_id
+        tests:
+          - unique
+          - not_null
